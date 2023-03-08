@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url(pokemon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#counter-card {
+    background-image: url(pokedex.png);
+    background-size: cover;
+    background-position: cover;
+    opacity: .9;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+
+}
+
+
+#counter-title,
+#prev-el {
+    background-color: rgba(245, 245, 245, .9);
+}
+
+#counter-title {
+    background-color: rgba(245, 245, 245, .9);
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+
+}
+
+#count-el {
+    color: white;
+    padding-bottom: 40px;
+    font-size: 70px;
+}
+
+#enc-btn,
+#save-btn {
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#enc-btn {
+    padding: 20px 10px
+}
+
+#save-el {
+    width: 400px;
+    background-color: white;
+
+    position: absolute;
+    bottom: .5em
+}
